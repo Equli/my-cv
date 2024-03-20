@@ -1,4 +1,4 @@
-$main-gap: 20px;
+@import './variables';
 
 * {
   box-sizing: border-box;
@@ -24,30 +24,4 @@ ul {
 
 h2 {
   margin-bottom: $main-gap;
-}
-
-.cv-header {
-  grid-area: header;
-  padding: $main-gap;
-  text-align: center;
-}
-
-.cv-personal {
-  grid-area: personal;
-  padding: $main-gap;
-  background-color: white;
-  text-align: center;
-  .cv-photo {
-    width: 100%;
-    border-radius: 50%;
-    margin-bottom: $main-gap;
-    margin-top: $main-gap;
-  }
-}
-
-.cv-details {
-  grid-area: details;
-  padding: $main-gap;
-  text-align: center;
-  background-color: #fafafa;
 }
